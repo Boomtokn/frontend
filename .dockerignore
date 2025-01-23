@@ -1,13 +1,36 @@
-Dockerfile
-.dockerignore
+# Ignore node_modules folders
 node_modules
 /**/node_modules
 node_modules_linux
+
+# Ignore npm debug logs
 npm-debug.log
+
+# Ignore README and unnecessary documentation files
 README.md
+
+# Ignore Next.js build folder
 .next
+
+# Ignore Git folder
 .git
+
+# Ignore TypeScript build info files
 *.tsbuildinfo
+
+# Ignore ESLint cache
 .eslintcache
+
+# Ignore test results
 /test-results/
+
+# Ignore Playwright test reports
 /playwright-report/
+
+# Ignore Docker-related files
+.dockerignore
+
+# Ignore environment variables and config files (if sensitive)
+.env
+.env.local
+.env.*.local
