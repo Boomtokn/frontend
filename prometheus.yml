@@ -1,16 +1,23 @@
 global:
-  scrape_interval:     15s
-  evaluation_interval: 15s
+  scrape_interval: 15s          # Interval at which metrics are scraped
+  evaluation_interval: 15s      # Interval at which rules are evaluated
 
 rule_files:
+  # Specify rule files here
+  # Uncomment and add rule files as needed
   # - "first.rules"
   # - "second.rules"
 
 scrape_configs:
+  # Scrape Prometheus metrics
   - job_name: prometheus
     static_configs:
-      - targets: ['localhost:9090']
+      - targets:
+          - 'localhost:9090'
+
+  # Scrape metrics from the frontend application
   - job_name: frontend
     metrics_path: /node-api/metrics
     static_configs:
-      - targets: ['host.docker.internal:3000']
+      - targets:
+          - 'host.docker.internal:3000'
