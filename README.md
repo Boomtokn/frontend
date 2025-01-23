@@ -1,38 +1,33 @@
-<h1 align="center">Blockscout frontend</h1>
+# Frontend  
 
-<p align="center">
-    <span>Frontend application for </span>
-    <a href="https://github.com/blockscout/blockscout/blob/master/README.md">Blockscout</a>
-    <span> blockchain explorer</span>
-</p>
+## Overview  
+This repository contains the **frontend** code for your project. It is designed to provide [briefly describe the functionality, e.g., a user interface for interacting with APIs, a dashboard, etc.].  
 
-## Running and configuring the app
+---
 
-App is distributed as a docker image. Here you can find information about the [package](https://github.com/blockscout/frontend/pkgs/container/frontend) and its recent [releases](https://github.com/blockscout/frontend/releases).
+## License  
 
-You can configure your app by passing necessary environment variables when starting the container. See full list of ENVs and their description [here](./docs/ENVS.md).
+### GNU GENERAL PUBLIC LICENSE  
+#### Version 3, 29 June 2007  
 
-```sh
-docker run -p 3000:3000 --env-file <path-to-your-env-file> ghcr.io/blockscout/frontend:latest
-```
+**Copyright (C) 2007 Free Software Foundation, Inc.**  
+[http://fsf.org](http://fsf.org)  
 
-Alternatively, you can build your own docker image and run your app from that. Please follow this [guide](./docs/CUSTOM_BUILD.md).
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is **not allowed**.  
 
-For more information on migrating from the previous frontend, please see the [frontend migration docs](https://docs.blockscout.com/for-developers/frontend-migration).
+For more details, please refer to the full license text here:  
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).  
 
-## Contributing
+---
 
-See our [Contribution guide](./docs/CONTRIBUTING.md) for pull request protocol. We expect contributors to follow our [code of conduct](./CODE_OF_CONDUCT.md) when submitting code or comments.
+## Getting Started  
 
-## Resources
-- [App ENVs list](./docs/ENVS.md)
-- [Contribution guide](./docs/CONTRIBUTING.md)
-- [Making a custom build](./docs/CUSTOM_BUILD.md)
-- [Frontend migration guide](https://docs.blockscout.com/for-developers/frontend-migration)
-- [Manual deployment guide with backend and microservices](https://docs.blockscout.com/for-developers/deployment/manual-deployment-guide)
+### Prerequisites  
+Ensure you have the following installed:  
+- Node.js (>= v14.x)  
+- npm or yarn  
 
-## License
-
-[![License: GPL v3.0](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+### Installation  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/Okeamah/frontend.git  
