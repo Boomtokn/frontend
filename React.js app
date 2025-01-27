@@ -1,0 +1,3 @@
+npx create-react-app boom-token-rewards
+cd boom-token-rewards
+npm install ethers
