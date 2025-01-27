@@ -1,0 +1,15 @@
+import React from "react";
+import StakeTokens from "./components/StakeTokens";
+import ClaimRewards from "./components/ClaimRewards";
+
+function App() {
+    return (
+        <div className="App">
+            <h1>Boom Token Reward Compiler</h1>
+            <StakeTokens />
+            <ClaimRewards />
+        </div>
+    );
+}
+
+export default App;
