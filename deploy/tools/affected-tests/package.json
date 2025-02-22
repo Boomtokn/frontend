@@ -5,6 +5,6 @@
   "author": "Vasilii (tom) Goriunov <tom@ohhhh.me>",
   "license": "MIT",
   "dependencies": {
-    "dependency-tree": "11.0.1"
+    "dependency-tree": "11.0.2"
   }
 }
