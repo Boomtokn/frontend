@@ -209,14 +209,14 @@ debug@^4.3.4:
   dependencies:
     ms "2.1.2"
 
-dependency-tree@11.0.2:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/dependency-tree/-/dependency-tree-11.0.2.tgz#8840dc3668a2803282384e727e0ae53f0cc42aad"
-  integrity sha512-eQPTn16WpphktLNvG/h0vQyKCCDpR4x6wYdQOM1aJBiCqWzCRYV7Yr9F7pv/o0DcMpamazd5hE+B2RvITXeNaw==
+dependency-tree@11.1.1:
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/dependency-tree/-/dependency-tree-11.1.1.tgz#5ab5fbb223fb32a9b03ed40952eb04bf09929ad6"
+  integrity sha512-pnkCd8VGOq70EVaEQxDC9mZCjCwYj4yG4j8h+PEJswuWp+rdE6p8zbtVvWk+yPwaVimOjlhNi782U9K5KOU9MQ==
   dependencies:
     commander "^12.1.0"
-    filing-cabinet "^5.0.2"
-    precinct "^12.1.3"
+    filing-cabinet "^5.0.3"
+    precinct "^12.2.0"
     typescript "^5.7.3"
 
 detective-amd@^6.0.1:
@@ -362,7 +362,7 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
-filing-cabinet@^5.0.2:
+filing-cabinet@^5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/filing-cabinet/-/filing-cabinet-5.0.3.tgz#e5ab960958653ee7fe70d5d99b3b88c342ce7907"
   integrity sha512-PlPcMwVWg60NQkhvfoxZs4wEHjhlOO/y7OAm4sKM60o1Z9nttRY4mcdQxp/iZ+kg/Vv6Hw1OAaTbYVM9DA9pYg==
@@ -637,7 +637,7 @@ postcss@^8.5.1:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
-precinct@^12.1.3:
+precinct@^12.2.0:
   version "12.2.0"
   resolved "https://registry.yarnpkg.com/precinct/-/precinct-12.2.0.tgz#6ab18f48034cc534f2c8fedb318f19a11bcd171b"
   integrity sha512-NFBMuwIfaJ4SocE9YXPU/n4AcNSoFMVFjP72nvl3cx69j/ke61/hPOWFREVxLkFhhEGnA8ZuVfTqJBa+PK3b5w==
